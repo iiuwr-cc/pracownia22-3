@@ -1,0 +1,12 @@
+f(): { x : int, y : int }
+{
+    return { x = 10, y = 15 }
+}
+
+main():int {
+    p : { x : int, y : int } = f()
+    return p.x + p.y;
+}
+
+//@PRACOWNIA
+//@out Exit code: 25

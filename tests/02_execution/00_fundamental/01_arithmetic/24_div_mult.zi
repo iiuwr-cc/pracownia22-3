@@ -1,0 +1,8 @@
+
+main():int
+{
+    return 8 / -1 * 2 + 100
+}
+
+//@PRACOWNIA
+//@out Exit code: 84

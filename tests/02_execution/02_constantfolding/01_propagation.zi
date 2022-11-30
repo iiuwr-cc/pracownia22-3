@@ -1,0 +1,94 @@
+use io
+
+printBool(x:bool)
+{
+    if x {
+        printInt(1)
+    } else {
+        printInt(0)
+    }
+}
+
+addtest():int
+{
+    a:int = 5;
+    b:int = 15;
+    c:int = a + b;
+    return c + 2;
+}
+
+subtest():int
+{
+    a:int = 5;
+    b:int = 15;
+    c:int = b - a;
+    return c - 2;
+}
+
+multest():int
+{
+    a:int = 10;
+    b:int = 15;
+    c:int = b * a;
+    return c * 2;
+}
+
+divtest():int
+{
+    a:int = 100;
+    b:int = 2;
+    c:int = a / b;
+    return c / 10;
+}
+
+negtest():int
+{
+    a:int = 100;
+    c:int = -a;
+    return -c;
+}
+
+set_lt_test():bool
+{
+    a:int = 5;
+    b:int = 15;
+    return a < b;
+}
+
+set_le_test():bool
+{
+    a:int = 15;
+    b:int = 15;
+    return a <= b;
+}
+
+set_eq_test():bool
+{
+    a:int = 5;
+    b:int = 15;
+    return a == b;
+}
+
+main():int
+{
+    printInt(addtest());
+    printInt(subtest());
+    printInt(multest());
+    printInt(divtest());
+    printInt(negtest());
+    printBool(set_lt_test());
+    printBool(set_le_test());
+    printBool(set_eq_test());
+    return 0;
+}
+
+//@PRACOWNIA
+//@out 22
+//@out 8
+//@out 300
+//@out 5
+//@out 100
+//@out 1
+//@out 1
+//@out 0
+//@out Exit code: 0

@@ -1,0 +1,9 @@
+main()
+{
+    return 0-
+    x:int = 1;
+}
+
+//@PRACOWNIA
+//@should_not_parse
+//@selftest pass

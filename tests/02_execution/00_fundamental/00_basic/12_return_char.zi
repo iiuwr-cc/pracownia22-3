@@ -1,0 +1,8 @@
+main():int
+{
+    s: int[] = "żółć";
+    return s[7]
+}
+
+//@PRACOWNIA
+//@out Exit code: 135

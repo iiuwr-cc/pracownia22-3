@@ -1,0 +1,12 @@
+add(x:int, y:int):int
+{
+    return x + y
+}
+
+main():int
+{
+    return add(4, 16)
+}
+
+//@PRACOWNIA
+//@out Exit code: 20

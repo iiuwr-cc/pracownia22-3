@@ -1,0 +1,12 @@
+main():int
+{
+    x:int = 33;
+    if (x == 34) {
+        return 100
+    } 
+
+    return 99
+}
+
+//@PRACOWNIA
+//@out Exit code: 99

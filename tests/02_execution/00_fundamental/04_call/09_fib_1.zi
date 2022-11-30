@@ -1,0 +1,20 @@
+fib(x:int):int
+{
+    f1:int = 1
+    f2:int = 0
+    while (x > 0) {
+        z:int = f1 + f2
+        f2 = f1
+        f1 = z
+        x = x - 1
+    }
+    return f2
+}
+
+main():int
+{
+    return fib(1)
+}
+
+//@PRACOWNIA
+//@out Exit code: 1

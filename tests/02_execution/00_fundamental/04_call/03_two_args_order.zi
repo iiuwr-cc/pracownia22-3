@@ -1,0 +1,12 @@
+sub(x:int, y:int):int
+{
+    return x - y
+}
+
+main():int
+{
+    return sub(16, 4)
+}
+
+//@PRACOWNIA
+//@out Exit code: 12

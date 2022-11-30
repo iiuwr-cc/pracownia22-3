@@ -1,0 +1,12 @@
+use io
+
+main():int
+{
+    s: int[] = "Hello" + {32, 119, 111, 114, 108, 100, 33 };
+    printString(s)
+    return 0
+}
+
+//@PRACOWNIA
+//@out Hello world!
+//@out Exit code: 0

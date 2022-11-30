@@ -1,0 +1,11 @@
+// powinno sie nie typowac, a nawet sie nie sparsowalo
+// srodowisko testowe wykrywa taka sytuacje
+main():int
+{
+    return 0-;
+    x = 1;
+}
+//@PRACOWNIA
+//@should_not_typecheck
+//@selftest fail
+

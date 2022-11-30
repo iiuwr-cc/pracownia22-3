@@ -1,0 +1,8 @@
+
+main():int
+{
+    return 4 % 6 - 2
+}
+
+//@PRACOWNIA
+//@out Exit code: 2

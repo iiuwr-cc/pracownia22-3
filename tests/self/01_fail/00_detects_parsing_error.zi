@@ -1,0 +1,9 @@
+// oczekujemy ze się sparsuje, a sie nie sparsowal
+main()
+{
+    return 0-;
+    x:int = 1;
+}
+//@PRACOWNIA
+//@stop_after parser
+//@selftest fail

@@ -1,0 +1,15 @@
+f (b:int):int  {
+  a:int
+  a=b
+  b=7
+  return a
+
+}
+
+ 
+main () : int {
+    return f(3)
+}
+
+//@PRACOWNIA
+//@out Exit code: 3

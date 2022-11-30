@@ -1,0 +1,8 @@
+main():int
+{
+    x:int[] = {5, 10, 15}
+    return length(x)
+}
+
+//@PRACOWNIA
+//@out Exit code: 3

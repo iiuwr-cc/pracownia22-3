@@ -1,0 +1,8 @@
+main():int
+{
+    s: int[] = "Hello";
+    return s[0]
+}
+
+//@PRACOWNIA
+//@out Exit code: 72

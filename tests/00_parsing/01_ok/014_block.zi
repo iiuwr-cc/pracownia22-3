@@ -1,0 +1,7 @@
+test()
+{
+    x:int[7];
+    x[0] = 1;
+}
+//@PRACOWNIA
+//@stop_after parser

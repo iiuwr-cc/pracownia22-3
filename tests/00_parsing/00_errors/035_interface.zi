@@ -1,0 +1,10 @@
+use types
+
+main():int
+{
+    return 1
+}
+
+//@PRACOWNIA
+//@stop_after typechecker
+//@should_not_typecheck

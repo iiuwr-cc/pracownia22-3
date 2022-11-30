@@ -1,0 +1,9 @@
+producer(): int[] { return {1, 2, 4} }
+
+test()
+{
+    x:int[30] = producer()
+}
+
+//@PRACOWNIA
+//@should_not_parse

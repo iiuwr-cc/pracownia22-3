@@ -1,0 +1,8 @@
+main():int
+{
+    z:int[] = {} + {}
+    return length(z)
+}
+
+//@PRACOWNIA
+//@out Exit code: 0

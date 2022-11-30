@@ -1,0 +1,7 @@
+main():int
+{
+    return true;
+}
+//@PRACOWNIA
+//@stop_after typechecker
+//@selftest fail

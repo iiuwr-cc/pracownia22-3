@@ -1,0 +1,11 @@
+// oczekujemy ze sie nie sparsuje, a sie sparsowal
+// blad z type-checkera nie myli nas i prawidlowo uznajemy
+// ze test nie przeszedl
+main():bool
+{
+    return 0;
+}
+//@PRACOWNIA
+//@stop_after parser
+//@should_not_parse
+//@selftest fail

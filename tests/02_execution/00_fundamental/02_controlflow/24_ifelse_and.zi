@@ -1,0 +1,19 @@
+pred():bool
+{
+    return true
+}
+
+main():int
+{
+    x:bool = true
+    result:int = 13
+    if x and pred() {
+        result = 100
+    } else {
+        result = 1
+    }
+    return result
+}
+
+//@PRACOWNIA
+//@out Exit code: 100

@@ -1,0 +1,7 @@
+f():bool
+{
+    return 42
+}
+//@PRACOWNIA
+//@should_not_typecheck
+//@selftest pass

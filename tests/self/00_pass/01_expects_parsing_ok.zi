@@ -1,0 +1,8 @@
+main():int
+{
+    return x;
+}
+
+//@PRACOWNIA
+//@stop_after parser
+//@selftest pass

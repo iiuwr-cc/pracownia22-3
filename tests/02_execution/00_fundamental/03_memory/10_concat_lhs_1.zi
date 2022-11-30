@@ -1,0 +1,8 @@
+main():int
+{
+    z:int[] = {100, 200} + {}
+    return z[1] 
+}
+
+//@PRACOWNIA
+//@out Exit code: 200
