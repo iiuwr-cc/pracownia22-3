@@ -1,0 +1,18 @@
+use io
+
+foo(x:int):int {
+    printInt(x);
+    return x;
+}
+
+main():int {
+    xs:int[foo(3)][foo(5)][foo(7) + foo(11)];
+    return length(xs);
+}
+
+//@PRACOWNIA
+//@out 3
+//@out 5
+//@out 7
+//@out 11
+//@out Exit code: 18
