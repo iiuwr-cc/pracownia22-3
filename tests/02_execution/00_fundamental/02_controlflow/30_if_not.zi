@@ -1,0 +1,14 @@
+do_sth(x:bool):int {
+  if not x
+    return 21
+  else
+    return 37
+}
+
+main() : int {
+  res:int = do_sth(true)
+  return res
+}
+
+//@PRACOWNIA
+//@out Exit code: 37

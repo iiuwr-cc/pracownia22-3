@@ -1,0 +1,12 @@
+do_sth(x:bool):bool {
+  return not x
+}
+
+main() : bool {
+  res:bool = do_sth(true)
+  return res
+}
+
+//@PRACOWNIA
+//@out Exit code: 0
+
