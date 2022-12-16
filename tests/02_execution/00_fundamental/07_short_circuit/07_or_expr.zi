@@ -1,0 +1,30 @@
+use io
+
+pred_lhs():bool
+{
+    printString("pred_lhs")
+    return true
+}
+
+pred_rhs():bool
+{
+    printString("pred_rhs")
+    return false
+}
+
+main():int
+{
+    result:int = 3
+    b:bool = pred_lhs() or pred_rhs();
+    if b {
+        result = 1
+    } else {
+        result = 0
+    }
+
+    return result
+}
+
+//@PRACOWNIA
+//@out pred_lhs
+//@out Exit code: 1
