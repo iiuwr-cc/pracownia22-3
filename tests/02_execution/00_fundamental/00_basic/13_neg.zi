@@ -2,9 +2,9 @@ do_sth(x:bool):bool {
   return not x
 }
 
-main() : bool {
+main() : int {
   res:bool = do_sth(true)
-  return res
+  if res return 1 else return 0
 }
 
 //@PRACOWNIA
